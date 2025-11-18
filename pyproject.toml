@@ -1,0 +1,24 @@
+[project]
+name = "ts-generate-script"
+version = "0.1.0"
+description = "Used to generate Typescript for Biomes's AQL (Asset Query Language) utilities"
+authors = [{ name = "Wei Ji (FlySkyPie)", email = "c445dj544@gmail.com" }]
+dependencies = [
+    "docopt==0.6.2",
+    "Jinja2==3.0.3",
+    "xtermcolor==1.3",
+    "git+https://github.com/FlySkyPie/biomes-voxeloo-py.git@0.1.1",
+    "numpy>=1.26.0",
+    "jsonschema==3.2.0",
+    "pygltflib==1.14.6",
+    "Pillow==9.0.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+gen = "python scripts/gen_ts.py --output=src/."
