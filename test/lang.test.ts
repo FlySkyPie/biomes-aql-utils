@@ -1,6 +1,6 @@
 import { assert, use } from "chai";
 import * as chaiSubset from "chai-subset";
-import * as l from "..";
+import * as l from "../src";
 
 use(chaiSubset.default);
 
