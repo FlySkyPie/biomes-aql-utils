@@ -1,4 +1,4 @@
-import * as t from "@/gen/galois/js/lang/types";
+import * as t from "./types";
 
 type NextFn = (node: t.Asset) => void;
 type NodeFn = (node: t.Asset, next: NextFn) => void;

@@ -1,6 +1,7 @@
-import { toArray } from "@/galois/lang/parse";
-import * as t from "@/gen/galois/js/lang/types";
 import { assert } from "chai";
+
+import { toArray } from "./parse";
+import * as t from "./types";
 
 interface LiteralExpr {
   node: "literal";
