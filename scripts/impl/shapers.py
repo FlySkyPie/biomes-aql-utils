@@ -4,8 +4,8 @@ from typing import List
 import numpy as np
 from impl import types as t
 
-from voxeloo import galois as cpp
-from voxeloo.galois.transforms import Transform as TransformCpp
+from VoxelooPy import galois as cpp
+from VoxelooPy.galois.transforms import Transform as TransformCpp
 
 
 @cache

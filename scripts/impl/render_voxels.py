@@ -2,7 +2,7 @@ from typing import Tuple
 
 import numpy as np
 import numpy.typing as npt
-from voxeloo import rays, spatial
+from VoxelooPy import rays, spatial
 
 
 def to_uint32(r, g, b, a):

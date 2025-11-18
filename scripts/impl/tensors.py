@@ -1,6 +1,6 @@
 from typing import Generic, Protocol, TypeVar, Union, cast
 
-from voxeloo import tensors as cpp
+from VoxelooPy import tensors as cpp
 
 
 class DataType(Protocol):

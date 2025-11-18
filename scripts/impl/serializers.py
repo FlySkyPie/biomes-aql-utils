@@ -8,7 +8,7 @@ import pygltflib
 from impl import maps
 from impl import types as t
 
-from voxeloo import galois as cpp
+from VoxelooPy import galois as cpp
 
 
 def encode_bytes(bytes: bytes):

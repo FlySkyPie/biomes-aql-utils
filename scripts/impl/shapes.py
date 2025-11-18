@@ -7,8 +7,8 @@ from impl import maps
 from impl import types as t
 from impl.meshes import get_box
 
-import voxeloo
-from voxeloo import galois as cpp
+import VoxelooPy as voxeloo
+from VoxelooPy import galois as cpp
 
 DIM = 8
 

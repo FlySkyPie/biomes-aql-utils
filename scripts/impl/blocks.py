@@ -15,7 +15,7 @@ from impl.textures import (
     obj_to_cube_texture,
 )
 
-from voxeloo import galois as cpp
+from VoxelooPy import galois as cpp
 
 
 def sample(block: t.Block, x: int, y: int, z: int):

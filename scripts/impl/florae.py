@@ -11,7 +11,7 @@ from impl.hashing import position_hash
 from impl.repo import open_file
 from impl.textures import build_atlas
 
-from voxeloo import galois as cpp
+from VoxelooPy import galois as cpp
 
 
 def sample(flora: t.Flora, x: int, y: int, z: int):

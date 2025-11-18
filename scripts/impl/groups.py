@@ -3,7 +3,7 @@ from typing import OrderedDict
 import numpy as np
 from impl import types as t
 
-from voxeloo import galois as cpp
+from VoxelooPy import galois as cpp
 
 
 def add_alpha(pixels: np.ndarray):

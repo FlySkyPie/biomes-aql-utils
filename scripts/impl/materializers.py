@@ -32,7 +32,7 @@ from impl.files import path_to_content
 from impl.quaternions import Quaternion, axis_angle, quat_to_matrix, random_quat
 from impl.repo import is_file, open_file
 
-from voxeloo import galois as cpp
+from VoxelooPy import galois as cpp
 
 
 def materialize_AddNodeToGLTF_GLTF_Str_Str_AffineTransform(node: t.DerivedNode):

@@ -10,7 +10,7 @@ import numpy.typing as npt
 import pygltflib
 from impl.affine_transforms import AffineTransform
 
-from voxeloo import galois as cpp
+from VoxelooPy import galois as cpp
 
 
 @dataclass
