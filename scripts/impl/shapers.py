@@ -5,8 +5,8 @@ import numpy as np
 from impl import types as t
 
 from VoxelooPy import galois as cpp
-from VoxelooPy.galois.transforms import Transform as TransformCpp
 
+TransformCpp = cpp.transforms
 
 @cache
 def transform_index():
