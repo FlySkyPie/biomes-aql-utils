@@ -11,8 +11,16 @@ This module is extracted from [ill-inc/biomes-game](https://github.com/ill-inc/b
 npm install @flyskypie/biomes-aql-utils
 ```
 
-## Generate Typescript from Python
+## Build
+
+### Generate Typescript from Python
 
 ```shell
 pdm run gen
+```
+
+### Build CLI tool
+
+```shell
+pdm run build
 ```

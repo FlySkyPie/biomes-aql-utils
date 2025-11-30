@@ -22,3 +22,10 @@ distribution = false
 
 [tool.pdm.scripts]
 gen = "python scripts/gen_ts.py --output=src/."
+build = "pyinstaller --onefile scripts/build.py"
+
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.17.0",
+]
