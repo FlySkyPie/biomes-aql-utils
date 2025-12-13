@@ -1,6 +1,6 @@
 {
   "name": "@flyskypie/biomes-aql-utils",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Biomes AQL (Asset Query Language) utilities",
   "type": "module",
   "main": "dist/index.mjs",
